@@ -1,0 +1,14 @@
+---
+apiVersion: helm.fluxcd.io/v1
+kind: HelmRelease
+metadata:
+  name: nginx
+  namespace: test
+  annotations:
+    fluxcd.io/automated: "false"
+spec:
+  releaseName: ghost
+  chart:
+    git: ssh://git@github.com:varunvijay91/kube-helm-flux.git
+    ref: master
+    path: charts/nginx
