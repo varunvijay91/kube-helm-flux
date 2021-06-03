@@ -11,4 +11,4 @@ spec:
   chart:
     git: https://github.com/varunvijay91/kube-helm-flux.git
     ref: master
-    path: charts/nginx
+    path: get_started/charts/nginx
