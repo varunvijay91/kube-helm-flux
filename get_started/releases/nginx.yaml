@@ -9,6 +9,6 @@ metadata:
 spec:
   releaseName: nginx
   chart:
-    git: ssh://git@github.com:varunvijay91/kube-helm-flux.git
+    git: https://github.com/varunvijay91/kube-helm-flux.git
     ref: master
     path: charts/nginx
